@@ -1,0 +1,63 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Background color similar to styleCreateListing.css */
+}
+
+/* Header Styles */
+#header1 {
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+#header1 .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; /* Remove underline from logo */
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin-bottom: 20px; /* Add margin to create space between the logo and nav links */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px; /* Adjust margin between nav links */
+    margin-top: 20px;
+    
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px 15px; /* Adjust padding for better clickability */
+    border-radius: 4px; /* Add a bit of rounded corner for buttons */
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555; /* Darken background color on hover */
+    text-decoration: underline; /* Underline on hover */
+}

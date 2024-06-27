@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    color: white;
+}
+
+#header1 {
+    width: 100%;
+    background-color: white;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#registerLogin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: coral;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+#registerLogin h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#registerLogin p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#registerLogin button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#registerLogin button:hover {
+    background-color: #0056b3;
+}
+
+#registrationForm,
+#loginForm {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit width */
+    margin-top: 20px;
+    text-align: left; /* Align form elements to the left */
+}
+
+#registrationForm label,
+#loginForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#registrationForm input[type="text"],
+#registrationForm input[type="email"],
+#loginForm input[type="text"] {
+    width: calc(100% - 20px); /* Adjust input width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#registrationForm button[type="submit"],
+#loginForm button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#registrationForm button[type="submit"]:hover,
+#loginForm button[type="submit"]:hover {
+    background-color: #218838;
+}
+

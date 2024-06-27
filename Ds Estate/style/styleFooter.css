@@ -1,0 +1,42 @@
+footer {
+    font-family: 'Times New Roman', serif;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; /* Ensure full width */
+    position: relative; /* Adjust position as needed */
+    bottom: 0; /* Stick to the bottom */
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns in desktop view */
+    grid-gap: 20px;
+}
+
+.contact-info, .map {
+    padding: 10px;
+}
+
+.contact-info h3, .map h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr; /* One column in tablet and mobile view */
+    }
+}
