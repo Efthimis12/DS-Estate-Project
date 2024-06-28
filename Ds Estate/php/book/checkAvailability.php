@@ -55,7 +55,6 @@
 
                 // Generate a random discount percentage
                 $discount_percentage = generateRandomDiscountPercentage();
-                echo $discount_percentage;
                 $discount_factor = $discount_percentage / 100;
                 $discounted_price = $total_price - ($total_price* $discount_factor);
 
