@@ -1,6 +1,6 @@
 <?php
 session_start(); // Start the session
-$base_url = '/DS ESTATE'; // Calculate the base URL dynamically
+$base_url = '/Ds_Estate_website/DS ESTATE'; // Calculate the base URL dynamically
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +22,7 @@ $base_url = '/DS ESTATE'; // Calculate the base URL dynamically
                     echo '<li><a href="' . $base_url . '/php/register_login/logout.php">Logout</a></li>';
                 }
             ?>
-            <li><a href="<?php echo $base_url; ?>/php/footer.php"">Contact</a></li>
+            <li><a href="<?php echo $base_url; ?>/php/footer.php">Contact</a></li>
         </ul>
     </nav>
 </body>
