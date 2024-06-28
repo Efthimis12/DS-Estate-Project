@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" href="/DS ESTATE/style/styleFooter.css">
+    <link rel="stylesheet" href="/Ds_Estate_website/DS ESTATE/style/styleFooter.css">
 </head>
 <body>
     <footer>
